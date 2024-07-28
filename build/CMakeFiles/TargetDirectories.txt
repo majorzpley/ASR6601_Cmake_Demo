@@ -1,0 +1,3 @@
+C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/app.elf.dir
+C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/edit_cache.dir
+C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/rebuild_cache.dir
