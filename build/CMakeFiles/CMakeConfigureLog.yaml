@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       The target system is: Generic -  - arm
       The host system is: Windows - 10.0.22631 - AMD64
@@ -15,7 +15,7 @@ events:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: C:/Users/wyx12/Documents/Environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-gcc.exe 
@@ -35,7 +35,7 @@ events:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: C:/Users/wyx12/Documents/Environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-gcc.exe 
@@ -57,7 +57,7 @@ events:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
       Compiler: C:/Users/wyx12/Documents/Environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-g++.exe 
@@ -77,7 +77,7 @@ events:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: C:/Users/wyx12/Documents/Environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-g++.exe 
@@ -98,12 +98,12 @@ events:
     backtrace:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-qtj5m9"
-      binary: "C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-qtj5m9"
+      source: "C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-4pswjc"
+      binary: "C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-4pswjc"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -112,18 +112,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-qtj5m9'
+        Change Dir: 'C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-4pswjc'
         
-        Run Build Command(s): C:/Users/wyx12/Documents/Environment/ninja/ninja.exe -v cmTC_2df78
-        [1/2] C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj -c C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/Users/wyx12/Documents/Environment/ninja/ninja.exe -v cmTC_3fbed
+        [1/2] C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj -c C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-gcc.exe
         Target: arm-none-eabi
         Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile
         Thread model: single
         gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-         c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -iprefix c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\wyx12\\AppData\\Local\\Temp\\cc31nKhd.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+         c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -iprefix c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\wyx12\\AppData\\Local\\Temp\\cclXtaAw.s
         GNU C17 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -144,13 +144,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: d18b46d535a7d663cef45eb261f67f75
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-         c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj C:\\Users\\wyx12\\AppData\\Local\\Temp\\cc31nKhd.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+         c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj C:\\Users\\wyx12\\AppData\\Local\\Temp\\cclXtaAw.s
         GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428
         COMPILER_PATH=c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/;c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/;c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\Documents\\Environment\\cmake-3.30.1-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_2df78.a && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ar.exe qc libcmTC_2df78.a  CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ranlib.exe libcmTC_2df78.a && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\Documents\\Environment\\cmake-3.30.1-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_3fbed.a && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ar.exe qc libcmTC_3fbed.a  CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ranlib.exe libcmTC_3fbed.a && cd ."
         
       exitCode: 0
   -
@@ -158,7 +158,7 @@ events:
     backtrace:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -178,23 +178,23 @@ events:
     backtrace:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-qtj5m9']
+        ignore line: [Change Dir: 'C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-4pswjc']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/wyx12/Documents/Environment/ninja/ninja.exe -v cmTC_2df78]
-        ignore line: [[1/2] C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj -c C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/Users/wyx12/Documents/Environment/ninja/ninja.exe -v cmTC_3fbed]
+        ignore line: [[1/2] C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj -c C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-gcc.exe]
         ignore line: [Target: arm-none-eabi]
         ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile]
         ignore line: [Thread model: single]
         ignore line: [gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-        ignore line: [ c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -iprefix c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\wyx12\\AppData\\Local\\Temp\\cc31nKhd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+        ignore line: [ c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1.exe -quiet -v -iprefix c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\wyx12\\AppData\\Local\\Temp\\cclXtaAw.s]
         ignore line: [GNU C17 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -215,8 +215,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: d18b46d535a7d663cef45eb261f67f75]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-        ignore line: [ c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj C:\\Users\\wyx12\\AppData\\Local\\Temp\\cc31nKhd.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+        ignore line: [ c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj C:\\Users\\wyx12\\AppData\\Local\\Temp\\cclXtaAw.s]
         ignore line: [GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428]
         ignore line: [COMPILER_PATH=c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/]
         ignore line: [c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/]
@@ -225,8 +225,8 @@ events:
         ignore line: [c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/]
         ignore line: [c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\Documents\\Environment\\cmake-3.30.1-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_2df78.a && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ar.exe qc libcmTC_2df78.a  CMakeFiles/cmTC_2df78.dir/CMakeCCompilerABI.c.obj && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ranlib.exe libcmTC_2df78.a && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\Documents\\Environment\\cmake-3.30.1-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_3fbed.a && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ar.exe qc libcmTC_3fbed.a  CMakeFiles/cmTC_3fbed.dir/CMakeCCompilerABI.c.obj && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ranlib.exe libcmTC_3fbed.a && cd ."]
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -240,12 +240,12 @@ events:
     backtrace:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-prmj9b"
-      binary: "C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-prmj9b"
+      source: "C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-5xcdry"
+      binary: "C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-5xcdry"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -255,18 +255,18 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-prmj9b'
+        Change Dir: 'C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-5xcdry'
         
-        Run Build Command(s): C:/Users/wyx12/Documents/Environment/ninja/ninja.exe -v cmTC_9e18f
-        [1/2] C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-g++.exe   -v -o CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): C:/Users/wyx12/Documents/Environment/ninja/ninja.exe -v cmTC_f369f
+        [1/2] C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-g++.exe   -v -o CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-g++.exe
         Target: arm-none-eabi
         Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile
         Thread model: single
         gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-         c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -iprefix c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\wyx12\\AppData\\Local\\Temp\\cczEIbKu.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+         c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -iprefix c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\wyx12\\AppData\\Local\\Temp\\ccNlBx1Q.s
         GNU C++14 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)
         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -293,13 +293,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 7a1ab17ae8404f635d46188cccacd8be
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-         c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\wyx12\\AppData\\Local\\Temp\\cczEIbKu.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+         c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\wyx12\\AppData\\Local\\Temp\\ccNlBx1Q.s
         GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428
         COMPILER_PATH=c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/;c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/;c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/;c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/;c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../arm-none-eabi/lib/\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\Documents\\Environment\\cmake-3.30.1-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_9e18f.a && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ar.exe qc libcmTC_9e18f.a  CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ranlib.exe libcmTC_9e18f.a && cd ."
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\Documents\\Environment\\cmake-3.30.1-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_f369f.a && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ar.exe qc libcmTC_f369f.a  CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ranlib.exe libcmTC_f369f.a && cd ."
         
       exitCode: 0
   -
@@ -307,7 +307,7 @@ events:
     backtrace:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -333,23 +333,23 @@ events:
     backtrace:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(arm-none-eabi-g\\+\\+\\.exe|;ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-prmj9b']
+        ignore line: [Change Dir: 'C:/Users/wyx12/Documents/Projects/ASR6601/ASR6601_Cmake_Demo/build/CMakeFiles/CMakeScratch/TryCompile-5xcdry']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/wyx12/Documents/Environment/ninja/ninja.exe -v cmTC_9e18f]
-        ignore line: [[1/2] C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-g++.exe   -v -o CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): C:/Users/wyx12/Documents/Environment/ninja/ninja.exe -v cmTC_f369f]
+        ignore line: [[1/2] C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-g++.exe   -v -o CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-g++.exe]
         ignore line: [Target: arm-none-eabi]
         ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-200_20200521_1590053374/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 9-2020-q2-update' --with-multilib-list=rmprofile,aprofile]
         ignore line: [Thread model: single]
         ignore line: [gcc version 9.3.1 20200408 (release) (GNU Arm Embedded Toolchain 9-2020-q2-update) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-        ignore line: [ c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -iprefix c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\wyx12\\AppData\\Local\\Temp\\cczEIbKu.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+        ignore line: [ c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/cc1plus.exe -quiet -v -iprefix c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../lib/gcc/arm-none-eabi/9.3.1/ -isysroot c:\\users\\wyx12\\documents\\environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\../arm-none-eabi -D__USES_INITFINI__ C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\wyx12\\AppData\\Local\\Temp\\ccNlBx1Q.s]
         ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 9-2020-q2-update) version 9.3.1 20200408 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -376,8 +376,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 7a1ab17ae8404f635d46188cccacd8be]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-        ignore line: [ c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\wyx12\\AppData\\Local\\Temp\\cczEIbKu.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+        ignore line: [ c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\wyx12\\AppData\\Local\\Temp\\ccNlBx1Q.s]
         ignore line: [GNU assembler version 2.34.0 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 9-2020-q2-update) 2.34.0.20200428]
         ignore line: [COMPILER_PATH=c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/]
         ignore line: [c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/]
@@ -386,8 +386,8 @@ events:
         ignore line: [c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/]
         ignore line: [c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/]
         ignore line: [c:/users/wyx12/documents/environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/../arm-none-eabi/lib/\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\Documents\\Environment\\cmake-3.30.1-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_9e18f.a && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ar.exe qc libcmTC_9e18f.a  CMakeFiles/cmTC_9e18f.dir/CMakeCXXCompilerABI.cpp.obj && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ranlib.exe libcmTC_9e18f.a && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\wyx12\\Documents\\Environment\\cmake-3.30.1-windows-x86_64\\bin\\cmake.exe -E rm -f libcmTC_f369f.a && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ar.exe qc libcmTC_f369f.a  CMakeFiles/cmTC_f369f.dir/CMakeCXXCompilerABI.cpp.obj && C:\\Users\\wyx12\\Documents\\Environment\\gcc-arm-none-eabi-9-2020-q2-update-win32\\bin\\arm-none-eabi-ranlib.exe libcmTC_f369f.a && cd ."]
         ignore line: []
         ignore line: []
         linker tool for 'CXX': [1/2] C:/Users/wyx12/Documents/Environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-g++.exe
@@ -403,7 +403,7 @@ events:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Running the CXX compiler's linker: "[1/2] C:/Users/wyx12/Documents/Environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-g++.exe" "-v"
       
@@ -413,7 +413,7 @@ events:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Running the CXX compiler's linker: "[1/2] C:/Users/wyx12/Documents/Environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-g++.exe" "-V"
       
@@ -423,7 +423,7 @@ events:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:20 (project)"
+      - "CMakeLists.txt:38 (project)"
     message: |
       Running the CXX compiler's linker: "[1/2] C:/Users/wyx12/Documents/Environment/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-g++.exe" "--version"
       
@@ -432,7 +432,7 @@ events:
     backtrace:
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
       - "C:/Users/wyx12/Documents/Environment/cmake-3.30.1-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:24 (enable_language)"
+      - "CMakeLists.txt:47 (enable_language)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
       arm-none-eabi-gcc.exe (GNU Arm Embedded Toolchain 9-2020-q2-update) 9.3.1 20200408 (release)
